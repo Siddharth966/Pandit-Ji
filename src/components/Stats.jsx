@@ -2,8 +2,8 @@ import { Award, Users, Flame, Clock } from 'lucide-react';
 
 const Stats = () => {
   const statsData = [
-    { icon: <Award size={40} />, value: "25+", label: "वर्षों का अनुभव", color: "text-saffron" },
-    { icon: <Users size={40} />, value: "10,000+", label: "प्रसन्न ग्राहक", color: "text-gold" },
+    { icon: <Award size={40} />, value: "10+", label: "वर्षों का अनुभव", color: "text-saffron" },
+    { icon: <Users size={40} />, value: "5,000+", label: "प्रसन्न ग्राहक", color: "text-gold" },
     { icon: <Flame size={40} />, value: "5,000+", label: "पूजा-पाठ संपन्न", color: "text-orange-500" },
     { icon: <Clock size={40} />, value: "24/7", label: "सहायता", color: "text-green-600" },
   ];

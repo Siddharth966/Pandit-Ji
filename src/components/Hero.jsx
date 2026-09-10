@@ -56,19 +56,14 @@ const Hero = () => {
 
             {/* Timings & Place Strip */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm">
-              <div className="bg-amber-100/80 dark:bg-darkcard p-3 rounded-lg border border-amber-300 flex items-center gap-2.5">
-                <Clock className="text-maroon flex-shrink-0" size={20} />
-                <div>
-                  <p className="font-bold text-maroon dark:text-gold">परामर्श समय:</p>
-                  <p className="text-gray-700 dark:text-gray-300">प्रातः 8-12 बजे | सायं 4-8 बजे <span className="text-red-600 font-bold">(रविवार अवकाश)</span></p>
-                </div>
-              </div>
+             
+        
 
               <div className="bg-orange-100/80 dark:bg-darkcard p-3 rounded-lg border border-orange-300 flex items-center gap-2.5">
                 <MapPin className="text-maroon flex-shrink-0" size={20} />
                 <div>
                   <p className="font-bold text-maroon dark:text-gold">स्थान:</p>
-                  <p className="text-gray-700 dark:text-gray-300">राम जानकी महल मंदिर सहसन, प्रयागराज</p>
+                  <p className="text-gray-700 dark:text-gray-300">त्रिवेणी संगम,  प्रयागराज, उत्तर प्रदेश</p>
                 </div>
               </div>
             </div>

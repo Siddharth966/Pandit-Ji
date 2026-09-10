@@ -177,24 +177,8 @@ const Contact = () => {
                     <span>पता (Address)</span>
                   </div>
                   <p className="font-hindi text-base sm:text-lg font-bold text-gold">
-                    राम जानकी महल मंदिर सहसन,
+                    त्रिवेणी संगम,  प्रयागराज, उत्तर प्रदेश
                   </p>
-                  <p className="text-sm text-cream font-medium">
-                    प्रयागराज, उत्तर प्रदेश
-                  </p>
-                </div>
-              </div>
-
-              {/* Meeting Timings */}
-              <div className="mt-4 p-4 bg-white/90 dark:bg-darkcard rounded-2xl border-2 border-gold/50 text-center">
-                <div className="flex items-center justify-center gap-1.5 text-maroon dark:text-gold font-bold text-sm mb-2">
-                  <Clock size={16} />
-                  <span>हमसे मिलने का समय</span>
-                </div>
-                <div className="text-xs sm:text-sm font-semibold text-gray-800 dark:text-gray-200 space-y-1">
-                  <p>प्रातः 8:00 बजे से 12:00 बजे तक</p>
-                  <p>सायं 4:00 बजे से 8:00 बजे तक</p>
-                  <p className="text-red-600 font-bold">(रविवार अवकाश)</p>
                 </div>
               </div>
 

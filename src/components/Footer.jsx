@@ -51,7 +51,7 @@ const Footer = () => {
 
             <div className="p-3 rounded-xl bg-white/10 border border-gold/30">
               <p className="text-xs text-gold font-bold">सही मार्गदर्शन सुखी जीवन</p>
-              <p className="text-[11px] text-cream/80 mt-0.5">25+ वर्षों का अनुभव एवं शास्त्रोक्त प्रामाणिकता</p>
+              <p className="text-[11px] text-cream/80 mt-0.5">10+ वर्षों का अनुभव एवं शास्त्रोक्त प्रामाणिकता</p>
             </div>
           </div>
 
@@ -116,15 +116,6 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a 
-                  href="https://instagram.com/shivanshu46301" 
-                  target="_blank" 
-                  rel="noreferrer" 
-                  className="flex items-center gap-2.5 bg-pink-950/40 hover:bg-pink-900/60 p-2 rounded-xl border border-pink-500/40 transition"
-                >
-                  <span className="p-1 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-full text-white"><InstagramIcon size={14} /></span>
-                  <span><strong>Instagram :</strong> @shivanshu46301</span>
-                </a>
               </li>
               <li>
                 <a 
@@ -150,17 +141,8 @@ const Footer = () => {
                 <div>
                   <p className="font-bold text-gold text-sm">पता (Address):</p>
                   <p className="text-cream mt-0.5 leading-relaxed">
-                    राम जानकी महल मंदिर सहसन, प्रयागराज, उत्तर प्रदेश
+                    त्रिवेणी संगम,  प्रयागराज, उत्तर प्रदेश
                   </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-2 bg-white/10 p-3 rounded-xl border border-gold/30">
-                <Clock size={18} className="text-gold flex-shrink-0 mt-0.5" />
-                <div>
-                  <p className="font-bold text-gold text-sm">मिलने का समय:</p>
-                  <p className="text-cream mt-0.5">प्रातः 8-12 बजे | सायं 4-8 बजे</p>
-                  <p className="text-red-400 font-bold mt-0.5">(रविवार अवकाश)</p>
                 </div>
               </div>
             </div>

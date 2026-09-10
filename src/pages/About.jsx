@@ -15,7 +15,7 @@ const About = () => {
     },
     {
       icon: <Award className="text-amber-500" size={28} />,
-      title: "25+ वर्षों का अनुभव",
+      title: "10+ वर्षों का अनुभव",
       desc: "प्रयागराज, काशी और देश-विदेश के हज़ारों श्रद्धालुओं को जीवन के संकटों से मुक्ति दिलाई है।"
     },
     {
@@ -38,7 +38,7 @@ const About = () => {
             परिचय : आचार्य शिवांशु तिवारी
           </h1>
           <p className="text-base sm:text-lg text-gold font-bold mt-2">
-            ज्योतिषाचार्य एवं कर्मकाण्ड विशेषज्ञ | राम जानकी महल मंदिर, सहसन, प्रयागराज
+            ज्योतिषाचार्य एवं कर्मकाण्ड विशेषज्ञ | त्रिवेणी संगम,  प्रयागराज, उत्तर प्रदेश
           </p>
         </div>
 
@@ -67,7 +67,7 @@ const About = () => {
             {/* Text Bio Column */}
             <div className="lg:col-span-7 space-y-4">
               <div className="inline-flex items-center gap-2 bg-gradient-to-r from-red-600 to-maroon text-gold text-xs sm:text-sm font-bold px-4 py-1 rounded-full shadow">
-                <Star size={16} /> 25+ वर्षों की अटूट वैदिक सेवा
+                <Star size={16} /> 10+ वर्षों की अटूट वैदिक सेवा
               </div>
 
               <h2 className="text-2xl sm:text-3xl font-extrabold text-maroon dark:text-saffron font-hindi leading-snug">
@@ -75,7 +75,7 @@ const About = () => {
               </h2>
 
               <p className="text-gray-800 dark:text-gray-200 leading-relaxed text-sm sm:text-base font-medium">
-                आचार्य शिवांशु तिवारी सनातन वैदिक संस्कृति और शास्त्रों के गूढ़ अध्येता हैं। प्रयागराज की तीर्थराज भूमि पर स्थित <strong>राम जानकी महल मंदिर सहसन</strong> से वे विगत 25 वर्षों से जातकों के कष्ट निवारण, जन्म कुंडली परीक्षण, वास्तु दोष शमन और समस्त वैदिक पूजा-पाठ संपन्न करा रहे हैं।
+                आचार्य शिवांशु तिवारी सनातन वैदिक संस्कृति और शास्त्रों के गूढ़ अध्येता हैं। प्रयागराज की तीर्थराज भूमि पर स्थित <strong>राम जानकी महल मंदिर सहसन</strong> से वे विगत 10 वर्षों से जातकों के कष्ट निवारण, जन्म कुंडली परीक्षण, वास्तु दोष शमन और समस्त वैदिक पूजा-पाठ संपन्न करा रहे हैं।
               </p>
 
               <p className="text-gray-800 dark:text-gray-200 leading-relaxed text-sm sm:text-base font-medium">
@@ -86,11 +86,7 @@ const About = () => {
               <div className="p-4 bg-gradient-to-r from-amber-100 to-yellow-100 dark:bg-darkcard rounded-2xl border-2 border-gold/60 space-y-2 text-xs sm:text-sm text-gray-900 dark:text-gray-100">
                 <p className="flex items-center gap-2">
                   <MapPin size={18} className="text-maroon flex-shrink-0" />
-                  <span><strong>स्थान :</strong> राम जानकी महल मंदिर सहसन, प्रयागराज, उत्तर प्रदेश</span>
-                </p>
-                <p className="flex items-center gap-2">
-                  <Clock size={18} className="text-maroon flex-shrink-0" />
-                  <span><strong>मिलने का समय :</strong> प्रातः 8 से 12 बजे तक | सायं 4 से 8 बजे तक <span className="text-red-600 font-bold">(रविवार अवकाश)</span></span>
+                  <span><strong>स्थान :</strong> त्रिवेणी संगम,  प्रयागराज, उत्तर प्रदेश</span>
                 </p>
               </div>
 

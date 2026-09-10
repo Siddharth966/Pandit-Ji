@@ -2,13 +2,21 @@ import { CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const WhyChooseUs = () => {
+  // Left Side: Features (Why Choose Us)
   const points = [
     { title: "वेदों और शास्त्रों पर आधारित सटीक मार्गदर्शन", desc: "ऋषि-मुनियों द्वारा प्रतिपादित वैदिक सिद्धांतों के आधार पर जन्मपत्री फलादेश।" },
-    { title: "25+ वर्षों का अनुभव", desc: "प्रयागराज की पावन धरा से हज़ारों यजमानों को सफल ज्योतिषीय समाधान।" },
+    { title: "10+ वर्षों का अनुभव", desc: "प्रयागराज की पावन धरा से हज़ारों यजमानों को सफल ज्योतिषीय समाधान।" },
     { title: "गोपनीयता की पूर्ण गारंटी", desc: "आपकी जन्मपत्री और व्यक्तिगत समस्याओं की 100% गोपनीयता सुनिश्चित।" },
     { title: "समस्या के अनुसार व्यक्तिगत समाधान", desc: "प्रत्येक जातक की ग्रहदशा के अनुरूप विशिष्ट वैदिक जप, पाठ एवं रत्नोपाय।" },
     { title: "सभी धार्मिक अनुष्ठानों की शास्त्रोक्त सुविधा", desc: "सत्यनारायण कथा से लेकर सहस्त्रचंडी महायज्ञ तक प्रामाणिक विधि द्वारा।" },
     { title: "घर बैठे परामर्श की भी व्यवस्था", desc: "देश-विदेश के यजमानों हेतु फोन एवं व्हाट्सएप पर ऑनलाइन कुंडली परीक्षण।" }
+  ];
+
+  // Right Side: Key Rituals (Different from Left Side)
+  const specialPujas = [
+    "महामृत्युंजय जप एवं हवन",
+    "रुद्राभिषेक एवं लघुरुद्राभिषेक",
+    "श्रीमद्भागवत महापुराण पारायण"
   ];
 
   return (
@@ -30,7 +38,7 @@ const WhyChooseUs = () => {
 
           <div className="p-6 sm:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
-            {/* Left Points Column */}
+            {/* Left Points Column (Why Choose Us) */}
             <div className="lg:col-span-8 space-y-4">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {points.map((pt, index) => (
@@ -62,31 +70,31 @@ const WhyChooseUs = () => {
               </div>
             </div>
 
-            {/* Right Column: Timing Card from Pamphlet */}
+            {/* Right Column: Key Rituals (No Duplication) */}
             <div className="lg:col-span-4 flex flex-col gap-4">
               
+              {/* नया कार्ड: प्रमुख अनुष्ठान */}
               <div className="bg-gradient-to-b from-maroon to-red-950 text-cream p-6 rounded-2xl border-4 border-gold shadow-xl text-center">
                 <div className="w-14 h-14 mx-auto mb-3 rounded-full bg-gold/20 flex items-center justify-center text-3xl border border-gold/50 shadow-inner">
-                  🪔
+                  🔱
                 </div>
                 <h3 className="text-xl font-bold text-gold font-hindi mb-2 border-b border-gold/40 pb-2">
-                  हमसे मिलने का समय
+                  प्रमुख अनुष्ठान
                 </h3>
-                <div className="space-y-2 text-sm sm:text-base font-semibold py-2">
-                  <div className="bg-white/10 p-2 rounded-lg">
-                    <p className="text-gold text-xs">प्रातः काल</p>
-                    <p className="text-cream">8:00 बजे से 12:00 बजे तक</p>
-                  </div>
-                  <div className="bg-white/10 p-2 rounded-lg">
-                    <p className="text-gold text-xs">सायं काल</p>
-                    <p className="text-cream">4:00 बजे से 8:00 बजे तक</p>
-                  </div>
+                <div className="space-y-2 text-sm sm:text-base font-semibold py-2 text-left">
+                  {specialPujas.map((puja, index) => (
+                    <div key={index} className="flex items-center gap-2 bg-white/10 p-2 rounded-lg">
+                      <span className="text-gold text-lg">🪔</span>
+                      <p className="text-cream text-xs sm:text-sm">{puja}</p>
+                    </div>
+                  ))}
                 </div>
-                <div className="mt-3 inline-block bg-red-600 text-white text-xs font-bold px-4 py-1 rounded-full border border-white/40 animate-pulse">
-                  (रविवार अवकाश)
-                </div>
+                <Link to="/services" className="mt-4 inline-block bg-saffron text-maroon text-xs font-bold px-4 py-1.5 rounded-full border border-white/40 shadow-sm hover:bg-gold transition">
+                  सभी सेवाएँ देखें →
+                </Link>
               </div>
 
+              {/* सीधे संपर्क सूत्र (Direct Contact) */}
               <div className="bg-white dark:bg-darkcard p-5 rounded-2xl border-2 border-gold shadow-md text-center">
                 <p className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider">सीधे संपर्क सूत्र</p>
                 <a href="tel:7668499723" className="block text-xl font-black text-maroon dark:text-saffron mt-1 hover:underline">
