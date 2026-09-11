@@ -9,6 +9,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'होम', path: '/' },
+    { name: 'पंचांग', path: '/#panchang' },
     { name: 'सेवाएँ', path: '/services' },
     { name: 'परिचय', path: '/about' },
     { name: 'गैलरी', path: '/gallery' },
