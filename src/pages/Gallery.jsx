@@ -10,7 +10,7 @@ const galleryItems = [
     categoryLabel: "आधिकारिक पोस्टर",
     image: "/images/pamphlets/poster_1.jpg",
     desc: "समस्त वैदिक सेवाएँ, विशेष अनुष्ठान, सम्पर्क सूत्र एवं राम जानकी महल मंदिर सहसन का पूर्ण विवरण।",
-    location: "प्रयागराज"
+    location: "प्रयागराज, उत्तर प्रदेश"
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const galleryItems = [
     categoryLabel: "आचार्य जी",
     image: "/images/pandit_real_portrait.jpg",
     desc: "वैदिक जप माला एवं गौमुखी के साथ जप अनुष्ठान एवं आशीर्वाद मुद्रा में आचार्य शिवांशु तिवारी जी।",
-    location: "राम जानकी महल मंदिर, सहसन"
+    location: "प्रयागराज, उत्तर प्रदेश"
   },
   {
     id: 3,
@@ -35,46 +35,10 @@ const galleryItems = [
     title: "वैदिक महायज्ञ एवं नवग्रह शांति हवन",
     category: "havan",
     categoryLabel: "हवन एवं महायज्ञ",
-    image: "/images/havan_yagya.jpg",
+    image: "/images/pamphlets/image.png",
     desc: "शास्त्रोक्त विधि से कुंड निर्माण, समिधा, घृत एवं औषधियों द्वारा आहुति एवं पूर्णाहुति।",
-    location: "प्रयागराज"
+    location: "प्रयागराज, उत्तर प्रदेश"
   },
-  {
-    id: 5,
-    title: "ज्योतिष परामर्श हेतु अधिकृत जानकारी फॉर्म पोस्टर",
-    category: "posters",
-    categoryLabel: "आधिकारिक पोस्टर",
-    image: "/images/pamphlets/poster_3.jpg",
-    desc: "जन्मपत्री फलादेश एवं परामर्श समय सारिणी सहित अधिकृत पोस्टर।",
-    location: "सहसन धाम"
-  },
-  {
-    id: 6,
-    title: "द्वादश ज्योतिर्लिंग स्वरूप महारुद्राभिषेक",
-    category: "rudrabhishek",
-    categoryLabel: "रुद्राभिषेक",
-    image: "/images/rudrabhishek.jpg",
-    desc: "दूध, गंगाजल, पंचामृत एवं बिल्वपत्र द्वारा शिव अर्चना एवं महामृत्युंजय जप अनुष्ठान।",
-    location: "राम जानकी महल मंदिर"
-  },
-  {
-    id: 7,
-    title: "श्री रामचरित मानस एवं भागवत कथा पारायण पोस्टर",
-    category: "posters",
-    categoryLabel: "आधिकारिक पोस्टर",
-    image: "/images/pamphlets/poster_4.jpg",
-    desc: "बगलामुखी जप एवं यज्ञ, कालसर्पदोष शांति एवं मंगल दोष निवारण विवरण।",
-    location: "प्रयागराज"
-  },
-  {
-    id: 8,
-    title: "मंदिर परिसर एवं यजमान आशीर्वाद पोस्टर",
-    category: "posters",
-    categoryLabel: "आधिकारिक पोस्टर",
-    image: "/images/pamphlets/poster_5.jpg",
-    desc: "समस्त धार्मिक अनुष्ठान एवं वैदिक ज्योतिष परामर्श का पूर्ण विवरण।",
-    location: "सहसन, प्रयागराज"
-  }
 ];
 
 const categories = [

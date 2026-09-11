@@ -19,7 +19,12 @@ export default {
         sans: ['Poppins', 'sans-serif'],
         hindi: ['Tiro Devanagari Hindi', 'serif'],
       },
+      // 👇 यहाँ से मार्की एनिमेशन शुरू होता है 👇
       keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-15px)' },
@@ -34,6 +39,7 @@ export default {
         }
       },
       animation: {
+        marquee: 'marquee 40s linear infinite', // 40s का मतलब है 40 सेकंड में पूरा स्क्रॉल होगा (आप इसे धीमा या तेज कर सकते हैं)
         float: 'float 4s ease-in-out infinite',
         glow: 'glow 3s ease-in-out infinite',
         fadeInUp: 'fadeInUp 0.8s ease-out forwards',

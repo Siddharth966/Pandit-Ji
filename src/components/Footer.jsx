@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-gold flex-shrink-0">
-                <img src="/images/pandit_real_portrait.jpg" alt="आचार्य शिवांशु तिवारी" className="w-full h-full object-cover object-top" />
+                <img src="/images/photo.png" alt="आचार्य शिवांशु तिवारी" className="w-full h-full object-cover object-top" />
               </div>
               <div>
                 <h3 className="text-xl font-black text-gold font-hindi leading-tight">

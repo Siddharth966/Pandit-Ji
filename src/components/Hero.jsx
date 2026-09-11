@@ -33,10 +33,10 @@ const Hero = () => {
             
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2">
               <span className="bg-gradient-to-r from-amber-500 to-red-600 text-white text-xs md:text-sm font-bold px-4 py-1 rounded-full shadow-md">
-                ⭐ 25+ वर्षों का वैदिक अनुभव
+                ⭐ 10+ वर्षों का वैदिक अनुभव
               </span>
               <span className="bg-gradient-to-r from-red-600 to-maroon text-gold text-xs md:text-sm font-bold px-4 py-1 rounded-full shadow-md border border-gold/40">
-                🚩 राम जानकी महल मंदिर, प्रयागराज
+                🚩 त्रिवेणी संगम,  प्रयागराज, उत्तर प्रदेश
               </span>
             </div>
 
@@ -122,14 +122,15 @@ const Hero = () => {
             </div>
 
             {/* Real Pandit Ji Image in Grand Vedic Arch Frame */}
-            <div className="relative w-72 h-88 sm:w-84 sm:h-96 md:w-92 md:h-[26rem] p-3 rounded-3xl bg-gradient-to-b from-gold via-amber-500 to-maroon shadow-2xl border-4 border-gold group">
+            <div className="relative w-72 h-88 sm:w-84 sm:h-96 md:w-92 md:h-[26rem] p-4 rounded-3xl bg-gradient-to-b from-gold via-amber-500 to-maroon shadow-2xl border-4 border-gold group">
               
               {/* Inner Decorative Frame */}
               <div className="w-full h-full rounded-2xl overflow-hidden relative shadow-inner bg-amber-50">
                 <img 
-                  src="/images/pandit_real_portrait.jpg" 
+                  src="/images/photo.png
+" 
                   alt="आचार्य शिवांशु तिवारी - वास्तविक चित्र" 
-                  className="w-full h-full object-cover object-top transition duration-700 group-hover:scale-105"
+                  className="w-full h-full object-cover object-top transition duration-700 group-hover:scale-105 -mt-3"
                 />
                 
                 {/* Bottom Gradient Overlay with Pandit Ji's Name */}

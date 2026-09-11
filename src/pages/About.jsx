@@ -50,7 +50,7 @@ const About = () => {
             <div className="lg:col-span-5 flex flex-col items-center justify-center">
               <div className="relative w-64 h-80 sm:w-72 sm:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-gold bg-amber-50 group">
                 <img 
-                  src="/images/pandit_real_portrait.jpg" 
+                  src="/images/about.png" 
                   alt="आचार्य शिवांशु तिवारी - वास्तविक चित्र" 
                   className="w-full h-full object-cover object-top transition duration-500 group-hover:scale-105"
                 />
