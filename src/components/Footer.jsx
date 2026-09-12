@@ -51,7 +51,7 @@ const Footer = () => {
 
             <div className="p-3 rounded-xl bg-white/10 border border-gold/30">
               <p className="text-xs text-gold font-bold">सही मार्गदर्शन सुखी जीवन</p>
-              <p className="text-[11px] text-cream/80 mt-0.5">10+ वर्षों का अनुभव एवं शास्त्रोक्त प्रामाणिकता</p>
+              <p className="text-[11px] text-cream/80 mt-0.5">25+ वर्षों का अनुभव एवं शास्त्रोक्त प्रामाणिकता</p>
             </div>
           </div>
 
@@ -132,7 +132,7 @@ const Footer = () => {
           {/* Col 4: Address & Timings */}
           <div>
             <h4 className="text-lg font-bold text-gold mb-4 font-hindi border-b border-gold/30 pb-1">
-              स्थान एवं समय
+              स्थान
             </h4>
             
             <div className="space-y-3 text-xs">
@@ -141,7 +141,7 @@ const Footer = () => {
                 <div>
                   <p className="font-bold text-gold text-sm">पता (Address):</p>
                   <p className="text-cream mt-0.5 leading-relaxed">
-                    त्रिवेणी संगम,  प्रयागराज, उत्तर प्रदेश
+                    त्रिवेणी संगम, प्रयागराज, उत्तर प्रदेश
                   </p>
                 </div>
               </div>
@@ -150,15 +150,23 @@ const Footer = () => {
 
         </div>
 
-        {/* Grand Temple Motto Strip */}
-        <div className="mt-10 pt-6 border-t-2 border-gold/40 text-center">
+        {/* Grand Temple Motto Strip & Credits */}
+        <div className="mt-10 pt-6 border-t-2 border-gold/40 text-center flex flex-col items-center justify-center gap-4">
           <div className="text-3xl mb-2">🪔 🕉️ 🪔</div>
           <p className="text-lg sm:text-xl font-hindi text-gold font-extrabold tracking-wide">
             || आपका विश्वास ही हमारी शक्ति है ||
           </p>
-          <p className="text-xs text-cream/70 mt-2">
-            &copy; {new Date().getFullYear()} आचार्य शिवांशु तिवारी | सर्व अधिकार सुरक्षित।
-          </p>
+          
+          {/* Middle Advertisement / Developer Badge */}
+          <div className="mt-4 bg-gradient-to-r from-amber-900/60 to-yellow-900/60 px-6 py-3  shadow-lg flex flex-col sm:flex-row items-center justify-center gap-2 text-sm sm:text-base">
+            <span className="text-gold font-semibold font-hindi">💻 Website Designed & Developed by</span>
+            <span className="font-black text-cream tracking-wide">Siddharth Maurya</span>
+            <span className="text-amber-300 hidden sm:inline">|</span>
+            <a href="tel:9621014735" className="text-amber-300 hover:text-amber-100 font-bold transition bg-black/20 px-3 py-1 rounded-full">
+              📞 +91 9621014735
+            </a>
+          </div>
+          
         </div>
       </div>
     </footer>
